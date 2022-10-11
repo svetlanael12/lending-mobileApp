@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container py-4 px-3 mx-auto">
+          <div
+            class="container d-flex justify-content-between align-items-center"
+          >
+            <a href="#">
+              <img
+                src="./img/logo.svg"
+                alt="logo"
+                width="120"
+                class="header__logo"
+              />
+            </a>
+            <nav class="navbar navbar-expand-sm navbar-dark">
+              <div class="container">
+                <button
+                  class="navbar-toggler ms-auto"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#n_bar"
+                  aria-controls="navbarNavAltMarkup"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="n_bar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#howToUse"
+                        >How to Use</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#download">Download</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+  
+        <div class="container header-text">
+          <div class="row align-items-center">
+            <div class="col">
+              <h1 class="header__title">Momentum</h1>
+              <p class="header__subtitle">
+                Launch your product — and savor the momentum.
+              </p>
+              <a
+                class="btn-pink header__btn btn btn-primary"
+                href="#download"
+                role="button"
+                >Get the App</a
+              >
+            </div>
+            <div class="col">
+              <img
+                src="./img/header-phone.svg"
+                class="img-fluid header__img"
+                width="550"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <a class="btn text-white btn-arrow" href="#about" role="button"
+              >&#8595;</a
+            >
+          </div>
+        </div>
+      </header>
+      <section id="about">
+        <div class="container">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center"
+          >
+            <p class="about__subtitle subtitle">Aenean Consectetur Porta</p>
+            <h2 class="about__title">
+              Nullam quis risus eget urna mollis ornare vel eu leo.
+            </h2>
+            <img
+              class="img-fluid about__img"
+              width="1100"
+              src="./img/tablet.svg"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="description">
+        <div class="container">
+          <div class="description-wrapper d-flex flex-wrap">
+            <div class="d-flex flex-column justify-content-center">
+              <p class="description__subtitle subtitle">Aenean Consectetur</p>
+              <h3 class="description__title">Simple</h3>
+              <p class="description__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </p>
+            </div>
+            <div class="">
+              <img
+                src="./img/phone.svg"
+                width="340"
+                class="img-fluid description__img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="description-wrapper d-flex flex-wrap">
+            <div class="description__EvenImg">
+              <img
+                src="./img/sesc.svg"
+                width="340"
+                class="img-fluid description__img"
+              />
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <p class="description__subtitle subtitle">ConsectUltricies</p>
+              <h3 class="description__title">Amet Ipsum</h3>
+              <p class="description__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="description-wrapper d-flex flex-wrap">
+            <div class="d-flex flex-column justify-content-center">
+              <p class="description__subtitle subtitle">
+                Aenean Consectetur Porta
+              </p>
+              <h3 class="description__title">Magna Porta Sit Bibendum</h3>
+              <p class="description__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </p>
+            </div>
+            <div class="">
+              <img
+                src="./img/photo.svg"
+                width="340"
+                class="img-fluid description__img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="advantage advantage-section" id="howToUse">
+          <div class="container">
+            <div class="row">
+              <div
+                class="col advantage__info-block d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./img/burger.svg" alt="burger" width="80px" />
+                <h4 class="advantage__title">Activity Notifications</h4>
+                <p class="advantage__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+              <div
+                class="col advantage__info-block d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./img/cutlery.svg" alt="cutlery" width="75px" />
+                <h4 class="advantage__title">Custom Timing</h4>
+                <p class="advantage__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+              <div
+                class="col advantage__info-block d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./img/diagram.svg" alt="diagram" width="40px" />
+                <h4 class="advantage__title">Mobile Optimized</h4>
+                <p class="advantage__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="statistic statistic-section">
+        <div class="container">
+          <div
+            class="d-flex justify-content-between align-items-center flex-wrap"
+          >
+            <div class="statistic__block-mini">
+              <h2 class="statistic__title">+12K</h2>
+              <p class="statistic__text">Nibh Elit Tristique</p>
+            </div>
+            <div class="statistic__block-mini">
+              <h2 class="statistic__title">84</h2>
+              <p class="statistic__text">Aenean Condimentum</p>
+            </div>
+            <div class="statistic__block-mini">
+              <h2 class="statistic__title">3,07</h2>
+              <p class="statistic__text">Quam Inceptos</p>
+            </div>
+            <div class="statistic__block-mini">
+              <h2 class="statistic__title">24h</h2>
+              <p class="statistic__text">Ullamcorper</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="container">
+          <div class="description-wrapper d-flex flex-wrap">
+            <div class="d-flex flex-column justify-content-center">
+              <p class="description__subtitle subtitle">
+                Aenean Consectetur Porta
+              </p>
+              <h3 class="description__title">Sem Risus Elit Vestibulum</h3>
+              <p class="description__text">
+                Nulla vitae elit libero, a pharetra augue. Duis mollis, est non
+                commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem
+                nec elit. Cras mattis consectetur purus sit amet fermentum. Donec
+                id elit non mi porta gravida at eget metus. Etiam porta sem
+                malesuada magna mollis euismod.
+              </p>
+            </div>
+            <div class="d-flex align-items-center">
+              <img
+                src="./img/hamburger.svg"
+                width="500"
+                class="img-fluid description__img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="description-wrapper d-flex flex-wrap">
+            <div class="description__EvenImg">
+              <img
+                src="./img/salat.svg"
+                width="500"
+                class="img-fluid description__img"
+              />
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <p class="description__subtitle subtitle">ConsectUltricies</p>
+              <h3 class="description__title">Parturient Tortor</h3>
+              <p class="description__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section class="carousel-reviews">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="div-slide d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./img/mark(slider).svg" width="60" alt="..." />
+                <p class="div-slide__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.Lorem ipsum
+                  dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                  enim in eros elementum tristique.
+                </p>
+                <div class="row div-slide__by-block">
+                  <div class="col div-slide__by-line">Joshua Home</div>
+                  <div class="col div-slide__by-line">&mdash;</div>
+                  <div class="col div-slide__by-line">New York Times</div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="div-slide d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./img/mark(slider).svg" width="60" alt="..." />
+                <p class="div-slide__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique.Lorem ipsum
+                  dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                  enim in eros elementum tristique.
+                </p>
+                <div class="row div-slide__by-block">
+                  <div class="col div-slide__by-line">Joshua Home</div>
+                  <div class="col div-slide__by-line">&mdash;</div>
+                  <div class="col div-slide__by-line">New York Times</div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="div-slide d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./img/mark(slider).svg" width="60" alt="..." />
+                <p class="div-slide__text">
+                  HeadNulla vitae elit libero, a pharetra augue. Duis mollis, est
+                  non commodo luctus, nisi erat porttitor ligula, eget lacinia
+                  odio sem nec elit. Pus sit amet fermentum. Donec id elit non mi
+                  porta gravida at eget metus. Etiam porta sem malesuada magna
+                  mollis euismod.ing
+                </p>
+                <div class="row div-slide__by-block">
+                  <div class="col div-slide__by-line">Joshua Home</div>
+                  <div class="col div-slide__by-line">&mdash;</div>
+                  <div class="col div-slide__by-line">New York Times</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="pay-img">
+        <div class="container">
+          <div class="row">
+            <img src="./img/pay.png" width="800" class="img-fluid" />
+          </div>
+        </div>
+      </section>
+      <section class="background-phone">
+        <img src="./img/background-phone.jpg" class="img-fluid" />
+      </section>
+      <section class="download-section download" id="download">
+        <div class="container">
+          <div class="download__wrapper">
+            <h2 class="download__title">Ready to get started?</h2>
+            <div class="download__BtnWrapper">
+              <a
+                class="btn-pink download__btn btn btn-primary"
+                href="#"
+                role="button"
+                >Download Now</a
+              >
+              <a
+                role="button"
+                href="#"
+                class="btn-transparent download__btn btn btn-outline-dark"
+                >Get in Touch</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="subscribe-section subscribe">
+        <div class="container">
+          <div class="subscribe__wrapper">
+            <h2 class="subscribe__title text-white">Get updates from Richard</h2>
+            <h3 class="subscribe__subtitle">
+              New course alerts, discounts and free lessons
+            </h3>
+            <div class="subscribe__inputWrapper d-flex">
+              <input class="subscribe__input" placeholder="Enter your email" />
+              <button
+                class="subscribe__button btn-pink btn text-white"
+                type="button"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-section footer">
+        <div class="container">
+          <div class="d-flex justify-content-center">
+            <a href="#">
+              <img
+                src="./img/footer-logo.svg"
+                alt="logo"
+                width="120"
+                class="footer__logo-img"
+              />
+            </a>
+          </div>
+          <ul class="footer__list nav justify-content-center">
+            <li class="nav-item">
+              <a class="footer__link nav-link" href="mailto:vlad@htmlbook.ru"
+                >Email</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="footer__link nav-link" href="https://www.instagram.com"
+                >Instagram</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="footer__link nav-link" href="https://ru-ru.facebook.com"
+                >Facebook</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="footer__link nav-link" href="https://twitter.com"
+                >Twitter</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="footer__link nav-link" href="#">Image License Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="footer__link nav-link" href="#">Powered by Webflow</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>    
+</body>
+</html>
